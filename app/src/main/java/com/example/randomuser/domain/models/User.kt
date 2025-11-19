@@ -1,7 +1,5 @@
 package com.example.randomuser.domain.models
 
-import com.example.randomuser.data.dto.DateOfBirthDto
-
 
 data class User(
     val id: Int = 0,

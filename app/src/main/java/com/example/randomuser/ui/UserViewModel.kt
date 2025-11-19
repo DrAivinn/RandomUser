@@ -6,13 +6,11 @@ import com.example.randomuser.domain.models.User
 import com.example.randomuser.domain.usecase.GetAllUsersUseCase
 import com.example.randomuser.domain.usecase.GetRandomUserUseCase
 import com.example.randomuser.domain.usecase.GetUserByIdUseCase
-import com.example.randomuser.ui.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import jakarta.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 
 @HiltViewModel

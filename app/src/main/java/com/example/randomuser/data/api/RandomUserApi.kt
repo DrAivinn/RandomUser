@@ -1,7 +1,6 @@
 package com.example.randomuser.data.api
 
 import com.example.randomuser.data.dto.RandomUserResponse
-import com.example.randomuser.data.dto.UserDto
 import retrofit2.http.GET
 import retrofit2.http.Query
 
